@@ -1,0 +1,325 @@
+/* text */
+.top-div h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #f7f7f7;
+}
+
+.top-div h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.top-div h4 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #f7f7f7;
+}
+
+.text-div p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #000000;
+  opacity: 0.8;
+  padding-top: 72px;
+}
+
+.mid-text-div h3 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #fa4a0c;
+}
+
+.mid-text-div h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.mid-text-div h4 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.download-text h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: white;
+}
+
+.download-text h4 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.footer-text p {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  color: #5c5c5c;
+}
+
+/* links and nav */
+a:link {
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+li a {
+  color: #252b42;
+}
+
+.home-li {
+  color: #fa4a0c;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  gap: 504px;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 94px;
+}
+
+.brand-logo {
+  margin-bottom: 28.12px;
+}
+
+/* main */
+.top-div {
+  height: 619px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.btn-div {
+  margin-top: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+}
+
+.btn1 {
+  z-index: 2;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  background-color: #fa4a0c;
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  border-radius: 30px;
+  border: none;
+  padding: 15px 55px;
+}
+
+.btn1:hover {
+  background-color: #df3b00;
+}
+
+.btn2 {
+  z-index: 2;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  background: transparent;
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  border-radius: 30px;
+  border: none;
+  padding: 14px 51px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+}
+
+.btn2:hover {
+  border: 1px solid rgb(194, 194, 194);
+  color: rgb(194, 194, 194);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* instructions section */
+.mid-mockup-div {
+  position: relative;
+  margin-bottom: 201px;
+}
+
+.mid-mockup-div img {
+  z-index: 1;
+  position: absolute;
+  left: 27%;
+  height: 700px;
+  bottom: -483px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.text-div {
+  width: 884px;
+  border-top: 3px solid #e4e4e4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 520px;
+}
+
+.instructions {
+  height: 1874px;
+  margin-top: 300px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+
+.mockup-div img {
+  filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15));
+}
+
+.mid-text-div {
+  display: flex;
+  gap: 7px;
+  flex-direction: column;
+}
+
+.row2 {
+  margin-left: 120px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.download {
+  height: 509px;
+  margin-top: 240px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.download-btns {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 31px;
+  width: 142px;
+  height: 64px;
+  background: #fa4a0c;
+  border-radius: 10px;
+}
+
+.btn4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 45px;
+  width: 176px;
+  height: 60px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+/* footer */
+.footer-container {
+  height: 224px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
